@@ -1,4 +1,10 @@
 ### Hi there 👋
+<table>
+  <caption>current projects</caption>
+  <tr>
+     <th>skova conlang</th>
+  </tr>
+</table>
 
 <!--
 **Moschka/moschka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
