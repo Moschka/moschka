@@ -8,7 +8,7 @@ When using using the transcirption function it is important to seperate each wor
 <table>
   <caption>current projects</caption>
   <tr>
-     <th>skova conlang</th>
+     <th>skova conlang interactive webpage</th>
   </tr>
 </table>
 
