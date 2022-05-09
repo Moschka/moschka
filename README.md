@@ -6,7 +6,7 @@ This is one of my first real webpages so it is very minimalistic and it can't do
 
 When using using the transcirption function it is important to seperate each word or symbol with a space and to clear out all tabs and unnecessary spaces the program adds in on its own for reasons unknown to me. Otherwise the transcription function won't work.
 
-Thanks for coming by and taking a look at my rather unimpressive project. Have a nice day!
+This project is pretty unimpressive, so, thanks for coming by and taking a look. Have a nice day!
 <table>
   <caption>current projects</caption>
   <tr>
