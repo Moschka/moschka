@@ -1,7 +1,7 @@
 
 
 ### Hi there 👋
-You can download all the files in this repository and put them into one folder. Then simply open the skova.html file in your browser to view the webpage. 
+You can download all the files in this repository and put them into one folder. Then simply open the <h style="font-family: menlo">skova.html</h> file in your browser to view the webpage. 
 It's my first real webpage so it is very minimalistic and it can't do much yet. The transcription function doesn't work that well and a translation function doesn't exist yet.
 
 When using using the transcirption function it is important to seperate each word or symbol with a space and to clear out all tabs and unnecessary spaces the program adds in on its own for reasons unknown to me. Otherwise the transcription function won't work.
