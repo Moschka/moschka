@@ -2,7 +2,7 @@
 
 ### Hi there 👋
 You can download all the files in this repository and put them into one folder. Then simply open the skova.html file in your browser to view the webpage. 
-It's first real webpage so it is very minimalistic and it can't do much yet. The transcription function doesn't work that well and a translation function doesn't yet exist.
+It's my first real webpage so it is very minimalistic and it can't do much yet. The transcription function doesn't work that well and a translation function doesn't yet exist.
 
 
 <table>
