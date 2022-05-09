@@ -1,7 +1,13 @@
+
+<style>
+  p {
+  font-size: 100px:
+  }
+</style>
 ### Hi there 👋
 You can download all the files in this repository and put them into one folder. Then simply open the skova.html file in your browser to view the webpage. 
 It's first real webpage so it is very minimalistic and it can't do much yet. The transcription function doesn't work that well and a translation function doesn't yet exist.
-<h style="font-size: 100px">这里留下的html是我自己搞的一个非常简单的网页。</h>
+<p>这里留下的html是我自己搞的一个非常简单的网页。</p>
 
 <table>
   <caption>current projects</caption>
