@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh">
+<html>
+
+<head>
+<meta charset="gb2312" />
+<title>SKOVA CONLANG SCRIPT</title>
+<meta name = "skova" content = "text">
+
+<style>
+@font-face {
+	font-family: "skova2";
+	src: url("skova2.ttf");
+}
+
+table {
+	table-layout: fixed;
+	width: 50%;
+	border-collapse: collapse;
+	border: 3px solid black;
+}
+thead {
+	background-color: orange;
+}
+tbody tr:nth-child(odd){
+	background-color: #e5e5e5;
+}
+
+#oc {
+	width: 700px;
+	border: 6px solid red;
+	object-position: right;
+}
+#map {
+	width: 650px;
+	
+	object-position: right;
+}
+
+#input-text {
+		display: block;
+		margin: 1rem;
+		width: 70vw;
+		height: 20vh;
+		padding: 1rem;
+		box-sizing: border-box;
+		justify-content: center;
+		font-size: 50px;
+	}
+#output-text {
+		font-family: skova2;
+		display: block;
+		margin: 1rem;
+		width: 70vw;
+		height: 20vh;
+		padding: 1rem;
+		box-sizing: border-box;
+		justify-content: center;
+
+		font-size: 45px;
+	}
+	* {<img src="skovaMAP.png" width="838" height="576" alt="Screenshot">
+		box-sizing: border-box;
+	}
+	
+	.header {
+		font-size: 50px;
+		text-align: center;
+		background-color: #f77e38;
+		padding: 1rem;
+	}
+	
+	#btn-translate {
+		background-color: #f77e38;
+		border-radius: 12px;
+		height: 5vh;
+		width: 20vw;
+		font-size: larger;
+		margin-left: 25vw;
+		cursor: pointer;
+		
+	}
+	
+	.main {
+		box-sizing: border-box;
+		margin-left: 15vw;
+		
+	}
+	
+	.footer {
+		font-size: 40px;
+		align-items: center;
+		margin-top: 8rem;
+		height: 10rem;
+		background-color: #f77e38;
+		text-align: center;
+	}
+
+
+</style>
+</head>
+
+<body>
+
+
+<table>
+	<caption>skova conlang script</caption>
+	<thead>
+		<tr>
+			<th scope="col">翻译</th>
+			<th scope="col">读音</th>
+			<th scope="col">skova script</th>
+			
+		</tr>
+	</thead>
+	</tbody>
+		<tr>
+			<th>1</th>
+			<th>ka</th>
+			<th style="font-family: skova2; font-size: 50px">1</th>
+			
+		</tr>
+		<tr>
+			<th>2</th>
+			<th>vi</th>
+			<th style="font-family: skova2; font-size: 50px">2</th>
+		</tr>
+		<tr>
+			<th>3</th>
+			<th>so</th>
+			<th style="font-family: skova2; font-size: 50px">3</th>
+		</tr>
+		<tr>
+			<th>4</th>
+			<th>lu</th>
+			<th style="font-family: skova2; font-size: 50px">4</th>
+		</tr>
+		<tr>
+			<th>5</th>
+			<th>te</th>
+			<th style="font-family: skova2; font-size: 50px">5</th>
+		</tr>
+		<tr>
+			<th>0</th>
+			<th>me</th>
+			<th style="font-family: skova2; font-size: 50px">0</th>
+		</tr>
+		
+		<tr>
+			<th>々</th>
+			<th>sa</th>
+			<th style="font-family: skova2; font-size: 50px">g</th>
+		</tr>
+		<tr>
+			<th>我</th>
+			<th>va</th>
+			<th style="font-family: skova2; font-size: 50px">h</th>
+		</tr>
+		<tr>
+			<th>你</th>
+			<th>co</th>
+			<th style="font-family: skova2; font-size: 50px">i</th>
+		</tr>
+		<tr>
+			<th>他</th>
+			<th>li</th>
+			<th style="font-family: skova2; font-size: 50px">j</th>
+		</tr>
+		<tr>
+			<th>不</th>
+			<th>wa</th>
+			<th style="font-family: skova2; font-size: 50px">k</th>
+		</tr>
+		<tr>
+			<th>是</th>
+			<th>ve</th>
+			<th style="font-family: skova2; font-size: 50px">l</th>
+		</tr>
+		<tr>
+			<th>友</th>
+			<th>tis</th>
+			<th style="font-family: skova2; font-size: 50px">m</th>
+		</tr>
+		<tr>
+			<th>过</th>
+			<th>lo</th>
+			<th style="font-family: skova2; font-size: 50px">n</th>
+		</tr>
+		<tr>
+			<th>著</th>
+			<th>ta</th>
+			<th style="font-family: skova2; font-size: 50px">o</th>
+		</tr>
+		<tr>
+			<th>会</th>
+			<th>si</th>
+			<th style="font-family: skova2; font-size: 50px">p</th>
+		</tr>
+		<tr>
+			<th>的</th>
+			<th>ya</th>
+			<th style="font-family: skova2; font-size: 50px">q</th>
+		</tr>
+		<tr>
+			<th>。</th>
+			<th>。</th>
+			<th style="font-family: skova2; font-size: 50px">r</th>
+		</tr>
+	</tbody>
+	
+	</table>
+
+<img id="oc" src="skovaoOC20220509.jpg" alt = "skova's original content"/>
+<img id="map" src="skovaMAP.png" alt = "character input table"/>
+
+<nav class="header">Transcribe It</nav>
+	<div class="main">
+		<div class="translation-box">
+			<form></form>
+			<textarea id="input-text">
+			</textarea>
+		</div>
+
+		<button id="btn-translate" onmouseover="style.color='white'" onmouseout="style.color='black'">Transcribe</button>
+		<div id="translated-box">
+			<textarea id="output-text">
+			</textarea>
+		</div>
+	</div>
+	<footer class="footer" style="font-family: skova2; margin: 1rem;">012345</footer>
+	<script src="translate.js"></script>
+</body>
+
+<script>
+var inputText = document.querySelector('#input-text');
+var outputText = document.querySelector('#output-text');
+var buttonTranslate = document.querySelector('#btn-translate');
+
+function errorHandle(error) {
+	// In case error occurs the errorHandle
+	// function will be called
+	//alert('Error occurred')
+	//console.log("error occurred", error);
+}
+var dict = {
+	"ka":'1',
+	"vi":'2',
+	"so":'3',
+	"lu":'4',
+	"te":'5',
+	"me":'0',
+	"6":'6',
+	"7":'7',
+	"8":'8',
+	"9":'9',
+	"a":'a',
+	"b":'b',
+	"c":'c',
+	"d":'d',
+	"e":'e',
+	"f":'f',
+	"sa":'g',
+	"va":'h',
+	"co":'i',
+	"li":'j',
+	"wa":'k',
+	"ve":'l',
+	"tis":'m',
+	"lo":'n',
+	"ta":'o',
+	"si":'p',
+	"ya":'q',
+	"。":'r',
+	"s":'s',
+	"t":'t',
+	"u":'u',
+	"v":'v',
+	"w":'w',
+	"x":'x',
+	"y":'y',
+	"z":'z',
+	"!":'!',
+	'"':'"',
+	"%":'%',
+	"&":'&',
+	"'":"'",
+	"(":'(',
+	")":')',
+	"+":'+',
+	",":',',
+	"-":'-',
+	".":'.',
+	"/":'/',
+	":":':',
+	"<":'<',
+	">":'>',
+	"=":'=',
+	"?":'?',
+	"[":'[',
+	"]":']',
+	"_":'_',
+	"{":'{',
+	"}":'}',
+	"|":'|',
+	}
+function clickHandler() {	
+	// When someone clicks on translate
+	// button clickHandler will be called
+	//inputText.focus(); //make sure cursor is at the start of the line
+	let text = inputText.value;
+	
+	//kinda works:
+	var words = text.split(' ');
+	for (iter=0;iter<3;iter++) {
+		for (i=0;i<words.length;i++) {
+			words[i] = words[i].replace('	','');
+		}
+		for (i=0;i<words.length;i++) {
+			words[i] = words[i].replace(' ','');
+		}
+	}
+	/*
+	alert(words);
+	alert(Object.values(dict));
+	alert(Object.keys(dict));
+	*/
+	let transcription = "";
+	
+	for (i=0;i<words.length;i++) {
+		snippet = dict[words[i]];
+		alert(typeof snippet + snippet);
+		if (typeof snippet != "undefined") {
+			transcription = transcription + snippet;	
+		}
+		
+		
+	}
+
+	outputText.value = transcription;
+
+}
+
+
+
+buttonTranslate.addEventListener("click", clickHandler);
+// Adding the event listener click
+
+
+
+</script>
+
+</html>
